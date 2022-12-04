@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "gtbDFJG3MiCFtRgm5siBqu2QW5o6cDC86+x9tp3GAIvmkGkTrnEwHhV8EaFGiWIRR8vBex4lmfTI4jSGnCYdsw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Kris Fynn\\Documents\\Xamarin Project 2022\\TodoListApp\\TodoListApp.UWP\\TodoListApp.UWP.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Win2D.uwp"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.UI.Xaml"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.NETCore.UniversalWindowsPlatform"
+    }
+  ]
+}

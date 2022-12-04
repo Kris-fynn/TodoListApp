@@ -1,0 +1,129 @@
+{
+  "version": 3,
+  "targets": {
+    "UAP,Version=v10.0.16299": {},
+    "UAP,Version=v10.0.16299/win10-arm": {},
+    "UAP,Version=v10.0.16299/win10-arm-aot": {},
+    "UAP,Version=v10.0.16299/win10-arm64-aot": {},
+    "UAP,Version=v10.0.16299/win10-x64": {},
+    "UAP,Version=v10.0.16299/win10-x64-aot": {},
+    "UAP,Version=v10.0.16299/win10-x86": {},
+    "UAP,Version=v10.0.16299/win10-x86-aot": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "UAP,Version=v10.0.16299": [
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.12",
+      "Xamarin.Essentials >= 1.7.0",
+      "Xamarin.Forms >= 5.0.0.2196"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Kris Fynn\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Kris Fynn\\Documents\\Xamarin Project 2022\\TodoListApp\\TodoListApp.UWP\\TodoListApp.UWP.csproj",
+      "projectName": "TodoListApp.UWP",
+      "projectPath": "C:\\Users\\Kris Fynn\\Documents\\Xamarin Project 2022\\TodoListApp\\TodoListApp.UWP\\TodoListApp.UWP.csproj",
+      "packagesPath": "C:\\Users\\Kris Fynn\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kris Fynn\\Documents\\Xamarin Project 2022\\TodoListApp\\TodoListApp.UWP\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Kris Fynn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "uap10.0.16299"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "uap10.0.16299": {
+          "projectReferences": {
+            "C:\\Users\\Kris Fynn\\Documents\\Xamarin Project 2022\\TodoListApp\\TodoListApp\\TodoListApp.csproj": {
+              "projectPath": "C:\\Users\\Kris Fynn\\Documents\\Xamarin Project 2022\\TodoListApp\\TodoListApp\\TodoListApp.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "uap10.0.16299": {
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": {
+            "target": "Package",
+            "version": "[6.2.12, )"
+          },
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.7.0, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[5.0.0.2196, )"
+          }
+        },
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    },
+    "runtimes": {
+      "win10-arm": {
+        "#import": []
+      },
+      "win10-arm-aot": {
+        "#import": []
+      },
+      "win10-arm64-aot": {
+        "#import": []
+      },
+      "win10-x64": {
+        "#import": []
+      },
+      "win10-x64-aot": {
+        "#import": []
+      },
+      "win10-x86": {
+        "#import": []
+      },
+      "win10-x86-aot": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Win2D.uwp"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.UI.Xaml"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.NETCore.UniversalWindowsPlatform"
+    }
+  ]
+}
