@@ -10,16 +10,28 @@
         
         <Entry 
             x:Name="InputField"
-            Text="" 
+            Text="{Binding NewTodoInputValue}" 
             Placeholder="Enter a todo" 
-            TextChanged="HandleTextChanged"
-            Completed="HandleEnterPress"
+            ReturnCommand="{Binding AddTodoCommand}"
+            
         />
 
 
-
         <ListView x:Name="TodoList" ItemsSource="{Binding TodoItems}" >
-
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <FlexLayout>
+                            <Label Text="{Binding TodoText}" FontSize="Large"/>
+                            <ImageButton   
+                                Source="delete.png"
+                                Scale="20"
+   
+                            />
+                        </FlexLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
         </ListView>
         
         
