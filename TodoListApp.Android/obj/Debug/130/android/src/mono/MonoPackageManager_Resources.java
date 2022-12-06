@@ -4,6 +4,7 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "TodoListApp.Android.dll" comes first in this list. */
 		"TodoListApp.Android.dll",
 		"FormsViewGroup.dll",
+		"Plugin.InputKit.dll",
 		"TodoListApp.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",

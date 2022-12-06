@@ -22,13 +22,20 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <FlexLayout>
-                            <Label Text="{Binding TodoText}" FontSize="Large"/>
+                        <FlexLayout JustifyContent="SpaceBetween" AlignItems="Center" Padding="20, 0">
+
+                            <input:CheckBox IsChecked="{Binding Complete}" />
+                            
+                            <Label Text="{Binding TodoText}" FontSize="Large" />
+                            
                             <ImageButton   
                                 Source="delete.png"
-                                Scale="20"
+                                Scale="0.5"
+                                Command="{Binding Path=BindingContext.RemoveTodoCommand, Source={x:Reference TodoList}}"
+                                CommandParameter="{Binding .}"
    
                             />
+                            
                         </FlexLayout>
                     </ViewCell>
                 </DataTemplate>

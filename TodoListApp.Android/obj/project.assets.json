@@ -1719,6 +1719,22 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.InputKit/4.1.6": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid12.0/Plugin.InputKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid12.0/Plugin.InputKit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.Google.Android.Material/1.4.0.2": {
         "type": "package",
         "dependencies": {
@@ -1781,7 +1797,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2196",
+          "Xamarin.Forms.InputKit": "4.1.6"
         },
         "compile": {
           "bin/placeholder/TodoListApp.dll": {}
@@ -3353,6 +3370,33 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.InputKit/4.1.6": {
+      "sha512": "QPtnR1z+oCWAPHJIc1DPZ3k1MBGLGdldwx5KgAsRhip40dePaZECTPPSA72kptlRokUaeWPpl3sWY3inTWXOAA==",
+      "type": "package",
+      "path": "xamarin.forms.inputkit/4.1.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/monoandroid10.0/Plugin.InputKit.dll",
+        "lib/monoandroid10.0/Plugin.InputKit.xml",
+        "lib/monoandroid11.0/Plugin.InputKit.dll",
+        "lib/monoandroid11.0/Plugin.InputKit.xml",
+        "lib/monoandroid12.0/Plugin.InputKit.dll",
+        "lib/monoandroid12.0/Plugin.InputKit.xml",
+        "lib/monoandroid90/Plugin.InputKit.dll",
+        "lib/monoandroid90/Plugin.InputKit.xml",
+        "lib/netstandard2.0/Plugin.InputKit.dll",
+        "lib/netstandard2.0/Plugin.InputKit.xml",
+        "lib/uap10.0.19041/Plugin.InputKit.dll",
+        "lib/uap10.0.19041/Plugin.InputKit.pri",
+        "lib/uap10.0.19041/Plugin.InputKit.xml",
+        "lib/xamarinios10/Plugin.InputKit.dll",
+        "lib/xamarinios10/Plugin.InputKit.xml",
+        "xamarin.forms.inputkit.4.1.6.nupkg.sha512",
+        "xamarin.forms.inputkit.nuspec"
+      ]
+    },
     "Xamarin.Google.Android.Material/1.4.0.2": {
       "sha512": "2dH8pSYjlVmZk8E64E6/hZzsoTcubsH1DHLMYpnsXnteqVuFU42uG5pIuJZIOcLxgKX/QjLdMzth6/w+Oje8sQ==",
       "type": "package",
@@ -3404,7 +3448,8 @@
     "MonoAndroid,Version=v13.0": [
       "TodoListApp >= 1.0.0",
       "Xamarin.Essentials >= 1.7.0",
-      "Xamarin.Forms >= 5.0.0.2196"
+      "Xamarin.Forms >= 5.0.0.2196",
+      "Xamarin.Forms.InputKit >= 4.1.6"
     ]
   },
   "packageFolders": {
@@ -3456,6 +3501,10 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2196, )"
+          },
+          "Xamarin.Forms.InputKit": {
+            "target": "Package",
+            "version": "[4.1.6, )"
           }
         }
       }

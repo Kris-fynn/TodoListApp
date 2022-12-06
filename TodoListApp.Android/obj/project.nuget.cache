@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GhEkEXEcJzxMcudjaFqo0Lu8w4oQgNsveuvpleKXdcCKc7q2j8XsMvQcfdM52rvk5Kgf7DkUYsprjVFiowsUqw==",
+  "dgSpecHash": "gpsGl7qLY2qY5+gwNFMk4kTiyLhClgox3q+kbxmieLxAhydMV+JOyQC3Ctx1HRpjp/uw/w0pmFA5pZQgyAR0Gw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Kris Fynn\\Documents\\Xamarin Project 2022\\TodoListApp\\TodoListApp.Android\\TodoListApp.Android.csproj",
   "expectedPackageFiles": [
@@ -60,6 +60,7 @@
     "C:\\Users\\Kris Fynn\\.nuget\\packages\\xamarin.androidx.viewpager2\\1.0.0.10\\xamarin.androidx.viewpager2.1.0.0.10.nupkg.sha512",
     "C:\\Users\\Kris Fynn\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\Kris Fynn\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
+    "C:\\Users\\Kris Fynn\\.nuget\\packages\\xamarin.forms.inputkit\\4.1.6\\xamarin.forms.inputkit.4.1.6.nupkg.sha512",
     "C:\\Users\\Kris Fynn\\.nuget\\packages\\xamarin.google.android.material\\1.4.0.2\\xamarin.google.android.material.1.4.0.2.nupkg.sha512",
     "C:\\Users\\Kris Fynn\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"
   ],

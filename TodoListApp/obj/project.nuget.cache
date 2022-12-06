@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9rBvB729vyha8gI8OJ7Snkg58Eo+W0m1k2gbmawOrsGR2c09Mrtgpn31NOP61gN7lxMYZVzIReqBTKqySa4blg==",
+  "dgSpecHash": "b1k8bHMORDVQW40+M83K2vkny92PSEH10Gflg59Df3wm7lMPBCcVx6efo1mJuHWZai0Xt33h5KznccOoG2uC6Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Kris Fynn\\Documents\\Xamarin Project 2022\\TodoListApp\\TodoListApp\\TodoListApp.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,8 @@
     "C:\\Users\\Kris Fynn\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Kris Fynn\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Kris Fynn\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\Kris Fynn\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\Kris Fynn\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
+    "C:\\Users\\Kris Fynn\\.nuget\\packages\\xamarin.forms.inputkit\\4.1.6\\xamarin.forms.inputkit.4.1.6.nupkg.sha512"
   ],
   "logs": []
 }

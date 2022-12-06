@@ -27,5 +27,13 @@ namespace TodoListApp
             TodoItems.Add(new TodoItem(NewTodoInputValue, false));
         }
 
+        public ICommand RemoveTodoCommand => new Command(RemoveTodoItem);
+        void RemoveTodoItem(object o)
+        {
+            TodoItem todoItemBindingRemoved = o as TodoItem;
+            //Console.WriteLine(todoItemBindingRemoved.TodoText);
+            TodoItems.Remove(todoItemBindingRemoved);
+        }
+
     }
 }
