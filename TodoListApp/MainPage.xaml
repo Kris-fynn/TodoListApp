@@ -23,15 +23,25 @@
                 <DataTemplate>
                     <ViewCell>
                         <FlexLayout JustifyContent="SpaceBetween" AlignItems="Center" Padding="20, 0">
-
-                            <input:CheckBox IsChecked="{Binding Complete}" />
                             
-                            <Label Text="{Binding TodoText}" FontSize="Large" />
+                            
+                            <ContentView>
+                                <FlexLayout AlignItems="Center">
+                                    <input:CheckBox 
+                                        IsChecked="{Binding Complete}" 
+                                    />
+
+                                    <Label Text="{Binding TodoText}" FontSize="Large" />
+                                </FlexLayout>
+                            </ContentView>
+
+                            
                             
                             <ImageButton   
                                 Source="delete.png"
-                                Scale="0.5"
+                               
                                 Command="{Binding Path=BindingContext.RemoveTodoCommand, Source={x:Reference TodoList}}"
+                                
                                 CommandParameter="{Binding .}"
    
                             />
