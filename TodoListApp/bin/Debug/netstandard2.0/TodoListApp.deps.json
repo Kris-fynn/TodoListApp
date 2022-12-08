@@ -11,7 +11,8 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2196",
+          "Xamarin.Forms.InputKit": "4.1.6"
         },
         "runtime": {
           "TodoListApp.dll": {}
@@ -57,6 +58,14 @@
             "fileVersion": "5.0.0.786"
           }
         }
+      },
+      "Xamarin.Forms.InputKit/4.1.6": {
+        "runtime": {
+          "lib/netstandard2.0/Plugin.InputKit.dll": {
+            "assemblyVersion": "4.1.6.0",
+            "fileVersion": "4.1.6.0"
+          }
+        }
       }
     }
   },
@@ -100,6 +109,13 @@
       "sha512": "sha512-zSXDiZukojtEBmZKUUG1yYBwlB9tI8JLPkc6n+Sm1PAX01QyzErWE9AaFJgP7usyoGHn92l4HnQF7A+/MPI6VA==",
       "path": "xamarin.forms/5.0.0.2196",
       "hashPath": "xamarin.forms.5.0.0.2196.nupkg.sha512"
+    },
+    "Xamarin.Forms.InputKit/4.1.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QPtnR1z+oCWAPHJIc1DPZ3k1MBGLGdldwx5KgAsRhip40dePaZECTPPSA72kptlRokUaeWPpl3sWY3inTWXOAA==",
+      "path": "xamarin.forms.inputkit/4.1.6",
+      "hashPath": "xamarin.forms.inputkit.4.1.6.nupkg.sha512"
     }
   }
 }
